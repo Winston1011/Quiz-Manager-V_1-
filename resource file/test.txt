@@ -1,0 +1,202 @@
+*****
+1、What will happen when you compile and run the following code?
+public class Test{
+	
+	public static void main(String[] args){
+		
+		double d1 = Double.NaN;		
+		double d2 = d1;
+		
+		if(d1 == d2)
+			System.out.println("Equal");
+		else
+			System.out.println("Not Equal");
+	}
+	
+}
+
+A、Equal
+B、Not Equal
+C、The code will not compile
+D、The code will compile but will throw run time error
+$$$$$
+B
+*****
+2、What will happen when you compile and run the following code?
+public class Test{	
+	
+	public static void main(String[] args){
+		int i = 10;
+		int j = 25;
+		System.out.println(i + ' ' + j);
+	}
+}
+
+A、10 25
+B、35
+C、 67
+D、The code will not compile
+$$$$$
+C
+*****
+3、What will happen when you compile and run the following code?
+public class Test {
+	
+	public static void main(String[] args){		
+		
+		int i = 10;
+		int j = 12;
+		i+=++j;
+		System.out.println(i);
+
+	}
+}
+
+A、13
+B、23
+C、22
+D、12
+$$$$$
+B
+*****
+4、What will happen when you compile and run the following code?
+
+public class Test {
+	
+	public static void main(String[] args){
+		int i = 010;
+		System.out.println(i);
+	}
+}
+
+A、Compilation error
+B、Runtime error
+C、8
+D、10
+$$$$$
+B
+*****
+5、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	public static void main(String[] args){	
+		byte b1 = 5, b2 = 2;
+		byte b = b1 % b2;
+		System.out.println(b);
+	}
+}
+
+A、0
+B、1
+C、2
+D、Compilation error
+$$$$$
+C
+*****
+6、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	public static void main(String[] args){
+		
+		boolean b1 = true;
+		boolean b2 = true;
+
+		if(b1 == b2){
+			System.out.print("==");
+		}
+
+		if(b1.equals(b2)){
+			System.out.print("equals");
+		}
+	}
+}
+
+A、==equals
+B、equals
+C、No output
+D、Compilation error
+$$$$$
+B
+*****
+7、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	public static void main(String[] args){		
+		int array[] = new int[1];
+		array[0] = 100;
+
+		System.out.println(array.length());
+	}
+}
+
+A、100
+B、1
+C、Compilation error
+D、Run time error
+$$$$$
+C
+*****
+8、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	static String name = "Test";
+
+	public Test(){
+		name = "TestObject";
+	}
+	
+	public static void main(String[] args){	
+		System.out.println("Name is " + name);
+	}	
+}
+
+A、Name is Test
+B、Name is TestObject
+C、Compilation error
+D、None of the above
+$$$$$
+C
+*****
+9、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	public static void main(String[] args){
+		
+		float f = 10.2;
+		double d = 10.2;
+		
+		if(f == d)
+			System.out.println("Same");
+		else
+			System.out.println("Not same");		
+	}	
+}
+
+A、Same
+B、Not same
+C、Compilation error
+D、None of the above
+$$$$$
+C
+*****
+10、What will happen when you compile and run the following code?
+
+public class Test{
+	
+	public static void main(String args) {
+		int i = 5, j = 2;
+		System.out.println( i % j );
+	}
+}
+
+A、1
+B、2
+C、Compilation error
+D、Run time error
+$$$$$
+B
